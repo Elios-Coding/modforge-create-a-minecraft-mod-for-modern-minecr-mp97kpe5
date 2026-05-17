@@ -1,0 +1,13 @@
+{
+  "required": false,
+  "package": "com.modforge.createaminecraftmodformodernminecr.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+    "CreateAMinecraftModForModernMinecrModMixin"
+  ],
+  "client": [],
+  "injectors": {
+    "defaultRequire": 0
+  },
+  "minVersion": "0.8"
+}

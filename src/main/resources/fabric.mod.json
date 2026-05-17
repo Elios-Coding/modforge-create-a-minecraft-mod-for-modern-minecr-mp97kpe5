@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "id": "create-a-minecraft-mod-for-modern-minecr-mp97kpe5",
+  "version": "${version}",
+  "name": "Global TNT Power Command",
+  "description": "Adds an operator-only /tntpower command that sets a global multiplier used by a server-side mixin to scale vanilla TNT-related behavior.",
+  "authors": [
+    "Elio"
+  ],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/create-a-minecraft-mod-for-modern-minecr-mp97kpe5/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.modforge.createaminecraftmodformodernminecr.CreateAMinecraftModForModernMinecrMod"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.18.4",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  },
+  "mixins": [
+    "create-a-minecraft-mod-for-modern-minecr-mp97kpe5.mixins.json"
+  ]
+}
